@@ -15,15 +15,16 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    display: block;
+    overflow: hidden;
     background-color: rgb(4, 23, 39);
     width: 375px;
-    height: 100vh;
+    height: 100%;
     transform: translate(-50%, -50%);
 
 }
 
 section#login > div#imagem {
+    display: block;
     background: black url(../imagens/logo.jpg) no-repeat;
     background-size: cover;
     height: 300px;
@@ -40,7 +41,7 @@ section#login > div#formulario {
 
 section#login > div#formulario > h1 {
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 section#login > div#formulario > p {
