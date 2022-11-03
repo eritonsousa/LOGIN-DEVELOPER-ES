@@ -9,13 +9,14 @@
 
 body, html {
     background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
 }
 
 section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    overflow: hidden;
     background-color: rgb(4, 23, 39);
     width: 375px;
     height: 100%;
@@ -31,12 +32,8 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    position: relative;
-    top: 10px;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    
+    display: block;
+    padding: 10px;
 }
 
 section#login > div#formulario > h1 {
@@ -44,8 +41,8 @@ section#login > div#formulario > h1 {
     margin-bottom: 10px;
 }
 
-section#login > div#formulario > p {
-    padding-bottom: 10px;
+div#formulario > p {
+    font-size: .8em;
 }
 
 div#formulario div.campo {
