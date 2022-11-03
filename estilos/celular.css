@@ -16,7 +16,7 @@ section#login {
     top: 50%;
     left: 50%;
     display: block;
-    background-color: rgb(6, 81, 143);
+    background-color: rgb(4, 23, 39);
     width: 375px;
     height: 100vh;
     transform: translate(-50%, -50%);
@@ -33,9 +33,21 @@ section#login > div#formulario {
     position: relative;
     top: 10px;
     padding: 20px;
+    color: white;
+    text-align: center;
+    
 }
 
 section#login > div#formulario > h1 {
     text-align: center;
     padding-bottom: 10px;
+}
+
+section#login > div#formulario > p {
+    padding-bottom: 10px;
+}
+
+div#formulario div.campo {
+    color: white;
+    text-align: center;
 }
