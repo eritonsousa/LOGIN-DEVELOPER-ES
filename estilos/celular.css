@@ -23,11 +23,11 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    display: block;
-    overflow: hidden;
+    
     background-color: rgb(4, 23, 39);
     width: 375px;
     height: 100%;
+    
     transform: translate(-50%, -50%);
 
 }
@@ -36,12 +36,13 @@ section#login > div#imagem {
     display: block;
     background: black url(../imagens/logo.jpg) no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 40%;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    height: 60%;;
 }
 
 section#login > div#formulario > h1 {
