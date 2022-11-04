@@ -27,14 +27,14 @@ section#login {
     background-color: rgb(4, 23, 39);
     width: 375px;
     height: 100%;
-    
+
     transform: translate(-50%, -50%);
 
 }
 
 section#login > div#imagem {
     display: block;
-    background: black url(../imagens/logo.jpg) no-repeat;
+    background: black url(../imagens/logo-alterada.jpg) no-repeat;
     background-size: cover;
     height: 40%;
 }
