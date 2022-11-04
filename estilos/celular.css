@@ -23,6 +23,8 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
+    
+    overflow: hidden;
     background-color: rgb(4, 23, 39);
     width: 375px;
     height: 100%;
